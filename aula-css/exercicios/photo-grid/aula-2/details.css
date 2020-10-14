@@ -1,0 +1,139 @@
+body {
+    background-color: #DECED2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: bottom;
+}
+
+a {
+    color: #443f40;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 800;
+    margin-top: 90px;
+}
+
+a:link { 
+    text-decoration: none;
+}
+
+.header h1 {
+    color: #315547;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 50px;
+    width: 500px;
+}
+
+.container {
+    background-color: #fefefe;
+    width: 80%;
+    height: 600px;
+    border-color: #b9cab1 !important;
+    border: 1px solid; 
+    display: flex;
+    flex-direction: row;
+}
+
+.container h2 {
+    font-size: 20px;
+    color: #643c52;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.container p {
+    font-size: 16px;
+    color: #1c434b;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.thumb {
+    width: 600px; 
+    height: 600px;
+    overflow: hidden; 
+}
+
+.thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container .avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.circulo {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;  
+    margin-left: 10px;
+    margin-top: 10px;
+}
+  .circulo img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+hr {
+    color: #b9cab1;
+    border: 1px solid;
+}
+
+@media (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header h1 {
+        color: #315547;
+        font-size: 25px;
+        padding-left: 0px;
+        padding-top: 30px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .thumb {
+        width: 100%; 
+        height: 300px;
+    }
+
+    .thumb img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+}
+
+
